@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReVive - E-Waste Management</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+
+    <style>
+       
+
+       body {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #92c59f; /* Green Ribbon Color */
+            padding: 10px ;
+            width: 100%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 5px; /* Space between the logo and text */
+        }
+        .logo img {
+            height: 100px;
+            width: auto; /* Adjust the height of the logo image */
+        }
+        .logo h1 {
+            color: rgb(0, 0, 0);
+            font-size: 50px;
+            margin: 0;
+        }
+        .menu-icon {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 25px;
+            width: 30px;
+        }
+        .menu-icon div {
+            background-color: white;
+            height: 4px;
+            border-radius: 2px;
+            width: 100%;
+        }
+        .dropdown-menu {
+            position: absolute;
+            top: 60px;
+            right: 20px;
+            background-color: #92c59f;
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
+            flex-direction: column;
+            gap: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .dropdown-menu a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .dropdown-menu a:hover {
+            background-color: #3e8e41; /* Slightly darker green on hover */
+        }
+
+
+
+        body {
+        margin: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #92c59f; /* Green Ribbon Color */
+        padding: 10px 20px; /* Add horizontal padding for spacing */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Space between the logo image and text */
+    }
+    .logo img {
+        height: 80px; /* Adjust the logo size */
+        width: auto;
+    }
+    .logo h1 {
+        color: black;
+        font-size: 40px;
+        margin: 0;
+    }
+    .menu-icon {
+        display: none; /* Hide the menu icon for now */
+    }
+    .auth-buttons {
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Space between the Login and Sign Up buttons */
+    }
+    .auth-btn {
+        text-decoration: none;
+        color: white; /* Button text color */
+        background-color: #3e8e41; /* Button background color */
+        padding: 8px 16px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    .auth-btn:hover {
+        background-color: white; /* Background changes to white on hover */
+        color: #3e8e41; /* Text changes to green */
+    }
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    
+   
+    
+    <header>
+        <div class="logo">
+            <img src="101.png" alt="ReVive Logo">
+            <h1>ReVive</h1>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav class="dropdown-menu">
+            <a href="#services">Our Services</a>
+            <a href="#goal">Our Goal</a>
+            <a href="#faq">FAQ</a>
+            <a href="#complaint">Complaint</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html" class="auth-btn" target="_blank">Login</a> / 
+            <a href="signup.html" class="auth-btn" target="_blank">Sign Up</a>
+        </div>
+    </header>
+    
+
+
+
+   
+
+
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Welcome to ReVive</h1>
+            <p>Your trusted partner in responsible e-waste management</p>
+            <p>E-waste management is crucial for reducing environmental harm. At ReVive, we go beyond just collecting and recycling electronics — we ensure responsible disposal with eco-friendly methods. Unlike others, we offer convenient pick-up services, transparent recycling practices, and personalized solutions to meet your needs. Choose ReVive for trustworthy, sustainable e-waste management that makes a real impact on the planet.</p>
+            <button class="coming-soon">Coming Soon</button> 
+        </div>
+        <div class="hero-image">
+            <img src="111.png" alt="E-Waste Management Image">
+        </div>
+    </div>
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+  
+
+    <div class="section" id="about">
+        <div class="about-text">
+            <h2>What is E-Waste Management?</h2>
+            <p>E-waste management involves the proper handling, recycling, and disposal of electronic waste to minimize its environmental impact. By managing e-waste responsibly, we can conserve resources, reduce pollution, and ensure a sustainable future.</p>
+        </div>
+        <div class="about-image">
+            <img src="30.png" alt="E-Waste Management Image">
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="section" id="change">
+        <div class="change-text">
+            <h2>How We Bring Change to the System</h2>
+            <p>At ReVive, we are committed to changing the way e-waste is handled by implementing innovative and eco-friendly solutions. We focus on maximizing the lifecycle of electronics, reducing environmental harm, and creating awareness about responsible e-waste disposal. Here’s how we are making a difference:</p>
+            <ul>
+                <li><strong>Transparency:</strong> We provide clear information on our recycling and disposal processes, ensuring that every step is eco-friendly.</li>
+                <li><strong>Convenience:</strong> Our free pick-up service makes it easy for consumers and businesses to dispose of their e-waste responsibly.</li>
+                <li><strong>Innovation:</strong> We continuously invest in technology that improves the recycling process, ensuring that more materials are reused and less is sent to landfills.</li>
+                <li><strong>Awareness:</strong> We educate the public and businesses about the environmental impacts of e-waste and encourage sustainable disposal practices.</li>
+            </ul>
+        </div>
+        <div class="change-images">
+            <img src="69.png" alt="E-Waste Change Image 69" class="change-img">
+            
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="register" id="register">
+        <h2>Drop a service related enquiry</h2>
+        <form action="#">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="phone" placeholder="Your Phone Number" required>
+            <textarea name="message" placeholder="Your Request" rows="5"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+
+
+
+
+
+
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Team Members</title>
+        <style>
+            .team-section {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                justify-content: center;
+                padding: 20px;
+            }
+            .team-member {
+                background-color: #f4f4f4;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                max-width: 300px;
+                padding: 15px;
+                text-align: center;
+            }
+            .team-member img {
+                width: 100%;
+                height: auto;
+                border-radius: 50%;
+                max-width: 120px;
+                margin-bottom: 15px;
+            }
+            .team-member h3 {
+                font-size: 1.5em;
+                margin-bottom: 10px;
+            }
+            .team-member p {
+                font-size: 1em;
+                color: #555;
+            }
+        </style>
+    </head>
+    <body>
+    
+        <section class="team-section">
+            <h1>our ownership detail and stake holdings</h1>
+            <!-- Team Member 1 -->
+            <div class="team-member">
+                <img src="501.png" alt="Team Member 1">
+                <h3>Ayush</h3>
+                <p>frontend devloper</p>
+                <p>50% ownership</p>
+            </div>
+        
+            <!-- Team Member 2 -->
+            <div class="team-member">
+                <img src="502.png" alt="Team Member 2">
+                <h3>Ananya karnwal</h3>
+                <p>backend and UI/UX devloper</p>
+                <p>50% ownership</p>
+            </div>
+        </section>
+         
+    
+    </body>
+    </html>
+    
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Follow us on social media</p>
+            <div class="social-links">
+                <a href="https://wa.me/9142170652" target="_blank" class="social-icon">WhatsApp</a>
+                <a href="https://twitter.com/@_elonmusk" target="_blank" class="social-icon">Twitter</a>
+                <a href="https://www.instagram.com/ayushchourasia03/?__pwa=1#" target="_blank" class="social-icon">Instagram</a>
+            </div>
+        </div>
+        <p>&copy; 2024 ReVive. All rights reserved.</p>
+    </footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
