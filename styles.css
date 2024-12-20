@@ -1,0 +1,1220 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #2a602c;
+}
+
+/* Header Styles */
+header {
+    background-color: #86c13d;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    color: #fff;
+    margin: 0;
+}
+
+/* Menu Styles */
+.menu {
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #345024;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #eaf4e1;
+    text-align: left;
+}
+
+.hero-text {
+    max-width: 50%;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #2a602c;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #4c9a2a;
+    text-align: justify;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Section Styles */
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.about-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2a602c;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Register Section */
+.register {
+    background-color: #86c13d;
+    color: white;
+    padding: 40px 20px;
+}
+
+.register form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.register input,
+.register textarea,
+.register button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.register input,
+.register textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.register button {
+    background-color: white;
+    color: #86c13d;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register button:hover {
+    background-color: #ddd;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #2a602c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.social-links a:hover {
+    color: #f5f5f5;
+}
+
+/* Responsive Header */
+@media screen and (max-width: 768px) {
+    header {
+        background-color: #4CAF50;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #eaf4e1;
+    text-align: left;
+    width: 100vw; /* Set width to full viewport width */
+    height: 100vh; /* Set height to full viewport height */
+    box-sizing: border-box; /* Include padding in the width/height calculation */
+}
+
+.hero-text {
+    max-width: 50%;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #2a602c;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #4c9a2a;
+    text-align: justify;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+/* Hero Section */
+.hero-text h1 {
+    font-size: 72px; /* Increase the font size */
+    margin-bottom: 20px;
+    color: #2a602c;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hero Section */
+.hero-text h1 {
+    font-size: 72px;
+    margin-bottom: 20px;
+    color: #2a602c;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #4c9a2a;
+    text-align: justify;
+}
+
+/* Button Styling */
+.coming-soon {
+    background-color: #86c13d; /* Green color */
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px; /* Add some space between the text and the button */
+}
+
+/* Glowing Effect on Hover */
+.coming-soon:hover {
+    background-color: #6fbf4e; /* Slightly darker green on hover */
+    box-shadow: 0 0 20px 2px rgba(134, 193, 61, 0.8); /* Light glow effect */
+    transform: scale(1.05); /* Slight scale-up on hover */
+}
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #eaf4e1;
+    text-align: left; /* Align text to the left */
+}
+
+.hero-text {
+    max-width: 50%;
+    font-family: 'Arial', sans-serif; /* Change font */
+    line-height: 1.6; /* Improve readability */
+}
+
+.hero-text h1 {
+    font-size: 72px;
+    margin-bottom: 20px;
+    color: #2a602c;
+    font-family: 'Poppins', sans-serif; /* Custom font for the heading */
+    text-align: center; /* Center the heading */
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #4c9a2a;
+    text-align: justify; /* Justify the text */
+}
+
+/* Button Styling */
+.coming-soon {
+    background-color: #86c13d; /* Green color */
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 30px; /* Adds space between the button and the text */
+    display: inline-block;
+    text-align: center;
+}
+
+/* Glowing Effect on Hover */
+.coming-soon:hover {
+    background-color: #6fbf4e; /* Slightly darker green on hover */
+    box-shadow: 0 0 20px 2px rgba(134, 193, 61, 0.8); /* Light glow effect */
+    transform: scale(1.05); /* Slight scale-up on hover */
+}
+.coming-soon {
+    margin-top: 30px;  /* Space between the button and text */
+    margin-left: 300px; /* Adds space to the left of the button, shifting it right */
+}
+
+
+
+
+
+.hero-text {
+    margin-top: -150px; /* Negative margin moves it upward */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Section Styling */
+.section {
+    padding: 50px 10%;
+    background-color: #f4f4f9; /* Light background for contrast */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* About Text Styling */
+.about-text {
+    flex: 1;
+    margin-right: 20px; /* Space between text and image */
+}
+
+.about-text h2 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+    color: #2c3e50; /* Dark text color */
+    margin-bottom: 20px; /* Spacing below the heading */
+    font-weight: bold;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    color: #7f8c8d; /* Lighter text color for body */
+    line-height: 1.6; /* Better line spacing for readability */
+    max-width: 600px;
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* About Image Styling */
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add rounded corners to the image */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow around the image */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section {
+        padding: 30px 5%;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+
+    .about-image {
+        margin-top: 20px; /* Stack image below text on smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Section Styling */
+.section {
+    width: 100%; /* Full width of the screen */
+    min-height: 100vh; /* Make sure the section fills the entire height of the screen */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10%;
+    background-color: #f4f4f9; /* Light background for contrast */
+    box-sizing: border-box; /* Ensure padding does not overflow */
+}
+
+/* About Text Styling */
+.about-text {
+    flex: 1;
+    margin-right: 20px; /* Space between text and image */
+}
+
+.about-text h2 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+    color: #2c3e50; /* Dark text color */
+    margin-bottom: 20px; /* Spacing below the heading */
+    font-weight: bold;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    color: #7f8c8d; /* Lighter text color for body */
+    line-height: 1.6; /* Better line spacing for readability */
+    max-width: 600px;
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* About Image Styling */
+.about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers the image vertically */
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add rounded corners to the image */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Subtle shadow around the image */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section {
+        padding: 30px 5%;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+
+    .about-image {
+        margin-top: 20px; /* Stack image below text on smaller screens */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General Section Styles */
+.section {
+    padding: 50px 15%;
+    margin-top: 50px;
+    background-color: #f4f4f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* About Text Styles */
+.about-text {
+    max-width: 50%;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.about-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #7f8c8d;
+    text-align: justify;
+}
+
+/* Image Styles */
+.about-image {
+    max-width: 45%;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+.about-text h2:hover {
+    color: #3498db;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        padding: 30px 10%;
+    }
+
+    .about-text {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .about-image {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* New Section Styling - How We Bring Change to the System */
+#change {
+    padding: 50px 10%;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* Change Text Styles */
+.change-text {
+    max-width: 50%;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.change-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+}
+
+.change-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #7f8c8d;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.change-text ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.change-text ul li {
+    font-size: 1.1rem;
+    color: #34495e;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.change-text ul li strong {
+    color: #2980b9;
+}
+
+/* Change Image Styles */
+.change-image {
+    max-width: 45%;
+    text-align: center;
+}
+
+.change-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+.change-text h2:hover {
+    color: #3498db;
+}
+
+.change-image img:hover {
+    transform: scale(1.05);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #change {
+        flex-direction: column;
+        padding: 30px 10%;
+    }
+
+    .change-text {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .change-image {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+}
+/* New Section Styling - How We Bring Change to the System */
+#change {
+    padding: 50px 10%;
+    background-color: #ecf0f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* Change Text Styles */
+.change-text {
+    max-width: 50%;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.change-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+}
+
+.change-text p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #7f8c8d;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.change-text ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.change-text ul li {
+    font-size: 1.1rem;
+    color: #34495e;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.change-text ul li strong {
+    color: #2980b9;
+}
+
+/* Change Images Container */
+.change-images {
+    max-width: 45%;
+    text-align: center;
+}
+
+.change-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effects */
+.change-text h2:hover {
+    color: #3498db;
+}
+
+.change-images img:hover {
+    transform: scale(1.05);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #change {
+        flex-direction: column;
+        padding: 30px 10%;
+    }
+
+    .change-text {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .change-images {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .change-images img {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Register Section Styling */
+.register {
+    background-color: #f4f6f7;
+    padding: 50px 10%;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 50px 0;
+    text-align: center;
+}
+
+.register h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.register form {
+    display: grid;
+    gap: 15px;
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.register input, .register textarea {
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.register input:focus, .register textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.register button {
+    padding: 15px 25px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register button:hover {
+    background-color: #2980b9;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #34495e;
+    color: white;
+    padding: 40px 10%;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.footer .footer-content {
+    margin-bottom: 20px;
+}
+
+.footer .social-links {
+    margin-bottom: 20px;
+}
+
+.footer .social-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #2980b9;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.footer .social-icon:hover {
+    background-color: #3498db;
+    transform: scale(1.1);
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+    .register {
+        padding: 40px 5%;
+    }
+
+    .register h2 {
+        font-size: 2rem;
+    }
+
+    .footer {
+        padding: 30px 5%;
+    }
+
+    .footer .social-icon {
+        font-size: 1rem;
+        margin: 0 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f4f8;
+}
+
+/* Section styling */
+.team-section {
+    text-align: center;
+    padding: 60px 20px 40px; /* Add more padding at the top */
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 1200px;
+    background: linear-gradient(to right, #fafafb, #f6f7f8); /* Gradient background */
+}
+
+.team-section h1 {
+    font-size: 2.8em;
+    color: #050202;
+    margin-bottom: 50px; /* Increased space below the heading */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 50px; /* Push the heading down */
+}
+
+/* Flexbox layout for team members */
+.team-member {
+    display: inline-block;
+    width: 280px;
+    margin: 20px;
+    padding: 25px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease, background-color 0.3s ease;
+    position: relative;
+}
+
+.team-member:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    background-color: #e8f5fe;
+}
+
+.team-member::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 5px;
+    background: #f4f6f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.5;
+}
+
+/* Image styling */
+.team-member img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Text styling for team member name and description */
+.team-member h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.team-member p {
+    font-size: 1.1em;
+    color: #777;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .team-section {
+        padding: 20px;
+    }
+
+    .team-member {
+        width: 100%;
+        max-width: 300px;
+        margin: 10px auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 50px; 
+    color: rgb(0, 0, 0);  
+    margin: 0;
+}
+
+
+
+
+.coming-soon {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #142819; /* The button's background color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the glowing effect */
+}
+
+.coming-soon:hover {
+    box-shadow: 0 0 15px 5px rgba(10, 168, 221, 0.7); /* Glowing effect on hover */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
